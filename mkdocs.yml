@@ -1,0 +1,17 @@
+site_name: Mon Espace Documentaire
+theme:
+  name: material
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Accueil: index.md
+  - Conversations:
+      - Exemple de chat: chat1.md
+  - Références:
+      - Concepts clés: concepts.md
